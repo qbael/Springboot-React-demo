@@ -9,6 +9,7 @@ import springboot_react_demo.ems_backend.service.EmployeeService;
 
 import java.util.List;
 
+@CrossOrigin("*")
 @RestController
 @RequestMapping("api/employees")
 @AllArgsConstructor
